@@ -44,17 +44,19 @@
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
+        android:background="#EEEEEE"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/emptyView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:background="#FF8383"
         android:text="@string/no_results"
+        android:textAlignment="center"
         android:textSize="20sp"
         android:visibility="gone"
         tools:ignore="MissingConstraints" />

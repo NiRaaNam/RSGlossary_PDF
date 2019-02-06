@@ -1,5 +1,6 @@
 package gistda.glossary.rsglossary;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,6 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -49,6 +51,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle(String.format("%s ","RS Glossary ....."));
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
 
@@ -56,8 +59,14 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();*/
+                if (mListView.getVisibility() == View.VISIBLE) {
+                    mListView.setVisibility(View.GONE);
+                } else {
+                    mListView.setVisibility(View.VISIBLE);
+                }
+
             }
         });
 
@@ -69,6 +78,10 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        //For PDF Request
+        pdfView = (PDFView) findViewById(R.id.pdfView);
+        displayFromAsset(SAMPLE_FILE);
 
         //List of item Vocab
         mListView = (ListView) findViewById(R.id.list);
@@ -84,9 +97,20 @@ public class MainActivity extends AppCompatActivity
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Toast.makeText(MainActivity.this, adapterView.getItemAtPosition(i).toString(), Toast.LENGTH_SHORT).show();
                 //Condition Selected Vocabulary
-                displayFromAsset(SAMPLE_FILE);
+                //displayFromAsset(SAMPLE_FILE);
+                String PageSelect = adapterView.getItemAtPosition(i).toString();
+                if (PageSelect.equals("January")){
+                    //int thePage = Integer.parseInt(PageSelect);
+                    pdfView.jumpTo(0);
+                }else{
+                    pdfView.jumpTo(1);
+                }
+
+
+
 
                 mListView.setVisibility(View.GONE);
+                closeKeyboard();
             }
         });
 
@@ -94,13 +118,21 @@ public class MainActivity extends AppCompatActivity
 
 
         //About PDF Config
-        pdfView = (PDFView) findViewById(R.id.pdfView);
+        //pdfView = (PDFView) findViewById(R.id.pdfView);
         //displayFromAsset(SAMPLE_FILE);
         //pdfView.fromAsset("RSG_Book_Final.pdf").load();
 
         addListenerOnButton();
 
 
+    }
+
+    private void closeKeyboard() {
+        View view = this.getCurrentFocus();
+        if (view != null) {
+            InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+        }
     }
 
     public void addListenerOnButton() {
@@ -140,7 +172,8 @@ public class MainActivity extends AppCompatActivity
     public void onPageChanged(int page, int pageCount) {
         pageNumber = page;
         //setTitle(String.format("%s %s / %s", pdfFileName, page + 1, pageCount));
-        setTitle(String.format("%s %s / %s","RS Glossary ", page + 1, pageCount));
+        //setTitle(String.format("%s %s / %s","RS Glossary ", page + 1, pageCount));
+        setTitle(String.format("%s ","RS Glossary Ready"));
     }
 
 
