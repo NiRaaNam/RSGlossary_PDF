@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.SearchView;
+import android.view.KeyEvent;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -46,6 +47,9 @@ public class MainActivity extends AppCompatActivity
     ArrayAdapter<String> mAdapter;
     ListView mListView;
     TextView mEmptyView;
+
+    private long lastPressedTime;
+    private static final int PERIOD = 2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -122,7 +126,6 @@ public class MainActivity extends AppCompatActivity
         //displayFromAsset(SAMPLE_FILE);
         //pdfView.fromAsset("RSG_Book_Final.pdf").load();
 
-        addListenerOnButton();
 
 
     }
@@ -135,22 +138,7 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    public void addListenerOnButton() {
 
-        button = (Button) findViewById(R.id.button);
-
-        button.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-
-                pdfView.jumpTo(199);
-
-            }
-
-        });
-
-    }
 
     private void displayFromAsset(String assetFileName) {
         pdfFileName = assetFileName;
@@ -266,6 +254,24 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (event.getKeyCode() == KeyEvent.KEYCODE_BACK) {
+            switch (event.getAction()) {
+                case KeyEvent.ACTION_DOWN:
+                    if (event.getDownTime() - lastPressedTime < PERIOD) {
+                        finish();
+                    } else {
+                        Toast.makeText(getApplicationContext(), "กดอีกครั้งเพื่อออก",
+                                Toast.LENGTH_SHORT).show();
+                        lastPressedTime = event.getEventTime();
+                    }
+                    return true;
+            }
+        }
+        return false;
     }
 
 
