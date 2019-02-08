@@ -22,7 +22,6 @@
         <item>Aerial Photography</item>
         <item>Aerosol</item>
         <item>Airborne Radar</item>
-        <item>Date</item>
         <item>Albedo</item>
         <item>Along-Track Scanner (Pushbroom)</item>
         <item>Alternating Polarization</item>
@@ -403,11 +402,11 @@
         <item>Optical Sensing</item>
         <item>Optimum Polarization</item>
         <item>Orthophoto / Orthoimage</item>
-        <item>Tomato</item>
-        <item>Ugli</item>
-        <item>Watermelon</item>
-        <item>Woodapple</item>
-        <item>Ugli</item>
+        <item>Outgoing Longwave Radiation (OLR)</item>
+        <item>Overall Accuracy</item>
+        <item>Over-the-horizon Radar</item>
+        <item>Panchromatic Film</item>
+        <item>Panchromatic Image</item>
         <item>Watermelon</item>
         <item>Woodapple</item>
         <item>Tomato</item>
