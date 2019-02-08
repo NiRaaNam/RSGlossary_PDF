@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity
                 //Condition Selected Vocabulary
                 //displayFromAsset(SAMPLE_FILE);
                 String PageSelect = adapterView.getItemAtPosition(i).toString();
-                if (PageSelect.equals("January")){
+                if (PageSelect.equals("Absorption")){
                     //int thePage = Integer.parseInt(PageSelect);
                     pdfView.jumpTo(0);
                 }else{

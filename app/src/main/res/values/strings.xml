@@ -407,50 +407,280 @@
         <item>Over-the-horizon Radar</item>
         <item>Panchromatic Film</item>
         <item>Panchromatic Image</item>
-        <item>Watermelon</item>
-        <item>Woodapple</item>
-        <item>Tomato</item>
-        <item>Ugli</item>
-        <item>Watermelon</item>
-        <item>Woodapple</item>
-        <item>Tangerines</item>
-        <item>Tomato</item>
-        <item>Ugli</item>
-        <item>Watermelon</item>
-        <item>Woodapple</item>
-        <item>Tomato</item>
-        <item>Ugli</item>
-        <item>Watermelon</item>
-        <item>Woodapple</item>
-        <item>Tangerines</item>
-        <item>Tomato</item>
-        <item>Ugli</item>
-        <item>Watermelon</item>
-        <item>Woodapple</item>
-        <item>Ugli</item>
-        <item>Watermelon</item>
-        <item>Woodapple</item>
-        <item>Tomato</item>
-        <item>Ugli</item>
-        <item>Watermelon</item>
-        <item>Woodapple</item>
-        <item>Tangerines</item>
-        <item>Tomato</item>
-        <item>Ugli</item>
-        <item>Watermelon</item>
-        <item>Woodapple</item>
-        <item>Tomato</item>
-        <item>Ugli</item>
-        <item>Watermelon</item>
-        <item>Woodapple</item>
-        <item>Tangerines</item>
-        <item>Tomato</item>
-        <item>Ugli</item>
-        <item>Watermelon</item>
-        <item>Woodapple</item>
-
-
-
+        <item>Parallax</item>
+        <item>Parallelepiped Classifier</item>
+        <item>Passive Sensor</item>
+        <item>Pattern Recognition</item>
+        <item>Payload</item>
+        <item>P-Band</item>
+        <item>Phase</item>
+        <item>Photoelectric Device</item>
+        <item>Photoelectric Tube</item>
+        <item>Photogeology</item>
+        <item>Photogrammetry</item>
+        <item>Photometer</item>
+        <item>Photosynthetically Active Radiation (PAR)</item>
+        <item>Piecewise Linear Contrast Stretch</item>
+        <item>Pitch</item>
+        <item>Pixel</item>
+        <item>Pixel Value</item>
+        <item>Plan Position Indicator (PPI)</item>
+        <item>Plane Wave</item>
+        <item>Planimetry</item>
+        <item>Platform</item>
+        <item>Point Data</item>
+        <item>Polar Stereographic Projection</item>
+        <item>Polarimeter</item>
+        <item>Polarimetric Active RadarCalibrator(PARC)</item>
+        <item>Polarimetric Radar</item>
+        <item>Polarimetry</item>
+        <item>Polarization / Polarization Basic</item>
+        <item>Polarization Efficiency</item>
+        <item>Polarization Pattern</item>
+        <item>Polarization Signature</item>
+        <item>Polarization State</item>
+        <item>Polarization Matched Antenna</item>
+        <item>Post Processing</item>
+        <item>Power Spectral Density (PSD)</item>
+        <item>Pre Processing</item>
+        <item>Principal Component Analysis (PCA)</item>
+        <item>Principal Component Transform (PCT)</item>
+        <item>Probability Density Function (PDF)</item>
+        <item>Producer’s Accuracy</item>
+        <item>Pseudo Color Image</item>
+        <item>Pulse</item>
+        <item>Pulse Code Modulation (PCM)</item>
+        <item>Pulse Repetition Frequency (PRF)</item>
+        <item>Pulse Width</item>
+        <item>Quadrature Polarization Radar (Quad Pol Radar)</item>
+        <item>Radar (Radio Detection And Ranging)</item>
+        <item>Radar Altimeter</item>
+        <item>Radar Band / Radar Frequency Band</item>
+        <item>Radar Beam</item>
+        <item>Radar Brightness</item>
+        <item>Radar Cross Section (RCS)</item>
+        <item>Radar Detection</item>
+        <item>Radar Equation</item>
+        <item>Radar Image</item>
+        <item>Radar Penetration</item>
+        <item>Radar Phase / Phase</item>
+        <item>Radar Polarimetry</item>
+        <item>Radar Polarization</item>
+        <item>Radar Processing</item>
+        <item>Radar Resolution</item>
+        <item>Radar Swath</item>
+        <item>Radar Transmission</item>
+        <item>Radargrammetry</item>
+        <item>Radiance</item>
+        <item>Radiation</item>
+        <item>Radiation Attenuation</item>
+        <item>Radiative Transfer</item>
+        <item>Radio Band</item>
+        <item>Radio Echo</item>
+        <item>Radio Frequency (RF)</item>
+        <item>Radiometer</item>
+        <item>Radiometric Correction</item>
+        <item>Radiometric Enhancement</item>
+        <item>Radiometric Resolution</item>
+        <item>Radiometry</item>
+        <item>Range</item>
+        <item>Range Ambiguity</item>
+        <item>Range Curvature</item>
+        <item>Range Direction</item>
+        <item>Range Height Indicator (RHI)</item>
+        <item>Range Resolution</item>
+        <item>Raster Data</item>
+        <item>Ratio Image</item>
+        <item>Rayleigh Scattering</item>
+        <item>Real Aperture Radar (RAR)</item>
+        <item>Receiver (Radar)</item>
+        <item>Reclassification</item>
+        <item>Reference Image</item>
+        <item>Reflectance</item>
+        <item>Reflected Energy Peak</item>
+        <item>Reflected IR Band</item>
+        <item>Reflection</item>
+        <item>Reflection Angle</item>
+        <item>Reflectivity</item>
+        <item>Reflectometer</item>
+        <item>Reflectometry</item>
+        <item>Reflector</item>
+        <item>Refraction</item>
+        <item>Relative Positioning</item>
+        <item>Relief Displacement</item>
+        <item>Remote Sensing (RS)</item>
+        <item>Remote Sensing Online Retrieval System (RESORS)</item>
+        <item>Repeat Pass Interferometry</item>
+        <item>Resolution</item>
+        <item>Resolution Cell</item>
+        <item>Resolving Power</item>
+        <item>Roll</item>
+        <item>Rotor-SAR (ROSAR)</item>
+        <item>Roughness</item>
+        <item>Row</item>
+        <item>SAR Focusing</item>
+        <item>SAR Image Quality</item>
+        <item>Satellite</item>
+        <item>Satellite Image</item>
+        <item>Satellite Orbit</item>
+        <item>Satellite Remote Sensing /Satellite Sensing</item>
+        <item>Saturation</item>
+        <item>S-Band</item>
+        <item>Scale Factor</item>
+        <item>Scanner</item>
+        <item>Scanning Radiometer</item>
+        <item>Scanning Synthetic Aperture Radar (ScanSAR)</item>
+        <item>Scattering</item>
+        <item>Scattering Coefficient</item>
+        <item>Scattering Matrix</item>
+        <item>Scatterometer</item>
+        <item>Scatterometry</item>
+        <item>Scene</item>
+        <item>Segmentation</item>
+        <item>Sensitivity</item>
+        <item>Sensor</item>
+        <item>Sensor Noise</item>
+        <item>Sensor Web</item>
+        <item>Shadow</item>
+        <item>Shadow (Radar)</item>
+        <item>Shadow Enhancement</item>
+        <item>Ship Detection</item>
+        <item>Short Pulse Radar</item>
+        <item>Shuttle Imaging Radar (SIR)</item>
+        <item>Side-Looking Airborne Radar (SLAR)</item>
+        <item>Sidelooking Radiometry</item>
+        <item>Sigma</item>
+        <item>Sigma Nought ( σ°)</item>
+        <item>Signal</item>
+        <item>Signal Enhancement</item>
+        <item>Signal Noise / Noise</item>
+        <item>Signal Processing</item>
+        <item>Signal Variation</item>
+        <item>Signal to Interference Ratio (SIR)</item>
+        <item>Signature Extension</item>
+        <item>Slant Range</item>
+        <item>Small Scale Map</item>
+        <item>Soil Adjustment Vegetation Index (SAVI)</item>
+        <item>Soil Reflectance</item>
+        <item>Space Law</item>
+        <item>Space Oblique Mercator Projection (SOM)</item>
+        <item>Space Photography</item>
+        <item>Space Shuttle</item>
+        <item>Space Station</item>
+        <item>Spatial Analysis</item>
+        <item>Spatial Autocorrelation</item>
+        <item>Spatial Characteristic</item>
+        <item>Spatial Data</item>
+        <item>Spatial Effective Resolution Element (SERE)</item>
+        <item>Spatial Enhancement</item>
+        <item>Spatial Filter</item>
+        <item>Spatial Frequency</item>
+        <item>Spatial Overlay</item>
+        <item>Spatial Resolution</item>
+        <item>Speckle Filter</item>
+        <item>Speckle Noise</item>
+        <item>Spectral Analysis</item>
+        <item>Spectral Enhancement</item>
+        <item>Spectral Filter</item>
+        <item>Spectral Irradiance</item>
+        <item>Spectral Radiance</item>
+        <item>Spectral Resolution</item>
+        <item>Spectral Signature / Signature</item>
+        <item>Spectrometer</item>
+        <item>Spectrometry</item>
+        <item>Spectrophotometer</item>
+        <item>Spectrophotometry</item>
+        <item>Spectroradiometer</item>
+        <item>Spectroradiometry</item>
+        <item>Specular Reflection</item>
+        <item>Speed of Light</item>
+        <item>Spin Scanner</item>
+        <item>Spotlight SAR</item>
+        <item>Squint Mode</item>
+        <item>Standard Parallel</item>
+        <item>Static Survey</item>
+        <item>Stereo Analysis</item>
+        <item>Stereo Pair</item>
+        <item>Stereo Sensing</item>
+        <item>Stereophotogrammetry</item>
+        <item>Stereoplotter</item>
+        <item>Stereoscope</item>
+        <item>Stereoscopic Parallax</item>
+        <item>Strip Map</item>
+        <item>Striping Noise</item>
+        <item>Subsetting</item>
+        <item>Subtractive Color</item>
+        <item>Sun-synchronous Orbit</item>
+        <item>Supervised Classification</item>
+        <item>Surveying</item>
+        <item>Synthetic Aperture Radar (SAR)</item>
+        <item>Synthetic Aperture Strip Map (SASM)</item>
+        <item>Systematic Correction</item>
+        <item>Telemetry</item>
+        <item>Temperature Gradient</item>
+        <item>Template Matching</item>
+        <item>Temporal Characteristics</item>
+        <item>Temporal Resolution</item>
+        <item>Textural Signature</item>
+        <item>Texture Analysis</item>
+        <item>Thematic Map</item>
+        <item>Thematic Mapper (TM)</item>
+        <item>Thermal Emittance</item>
+        <item>Thermal Imaging</item>
+        <item>Thermal Infrared Band</item>
+        <item>Thermal Mapper</item>
+        <item>Threshold</item>
+        <item>Tone</item>
+        <item>Topographic Map</item>
+        <item>Training Area</item>
+        <item>Transformation VegetationIndex (TVI)</item>
+        <item>TransformedSoil AdjustedVegetation Index (TSAVI)</item>
+        <item>Transmission</item>
+        <item>Transmissometer</item>
+        <item>Transmittance</item>
+        <item>Transponder</item>
+        <item>Trend Surface Analysis</item>
+        <item>Triangulated Irregular Network (TIN)</item>
+        <item>Triangulation</item>
+        <item>True Color Composite</item>
+        <item>True North</item>
+        <item>Unmanned Aerial Vehicle (UAV)</item>
+        <item>Unsupervised Classification</item>
+        <item>Unpolarized Wave</item>
+        <item>Ultra Low Frequency (ULF)</item>
+        <item>Ultra High Frequency (UHF)</item>
+        <item>Universal Transverse Mercator Projection (UTM)</item>
+        <item>Ultralight Aircraft</item>
+        <item>Ultraviolet (UV)</item>
+        <item>Ultraviolet Photography</item>
+        <item>User’s Accuracy</item>
+        <item>Vector Data</item>
+        <item>Vegetation Condition Index (VCI)</item>
+        <item>Vegetation Index (VI)</item>
+        <item>Vegetation Reflectance</item>
+        <item>Velocimeter</item>
+        <item>Vertical Polarization</item>
+        <item>Vertical Transmit- Horizontal Receive Polarization (VH)</item>
+        <item>Vertical Transmit - Vertical Receive Polarization (VV)</item>
+        <item>Very High Frequency (VHF)</item>
+        <item>Very Low Frequency (VLF)</item>
+        <item>Viewing Angle</item>
+        <item>Vignetting</item>
+        <item>Visible Light</item>
+        <item>Visual Interpretation</item>
+        <item>Volume Scattering</item>
+        <item>Voxel</item>
+        <item>Water Absorption Band</item>
+        <item>Water Reflectance</item>
+        <item>Wave</item>
+        <item>Wavelength</item>
+        <item>Wavelet / Wavelet Transform</item>
+        <item>World Geodetic System 84 (WGS 84)</item>
+        <item>X-Band</item>
+        <item>X-Band Antenna</item>
+        <item>X-Ray</item>
+        <item>Yaw</item>
+        <item>Zero Correction</item>
 
     </string-array>
 </resources>
