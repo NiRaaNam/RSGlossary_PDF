@@ -32,7 +32,7 @@
         android:baselineAligned="false">
 
         <ListView
-            android:id="@+id/list_fruits"
+            android:id="@+id/list_vocabs"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="#EEEEEE"

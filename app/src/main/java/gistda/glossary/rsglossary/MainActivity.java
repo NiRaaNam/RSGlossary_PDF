@@ -100,12 +100,12 @@ public class MainActivity extends AppCompatActivity
         displayFromAsset(SAMPLE_FILE);
 
         //List of item Vocab
-        mListView = (ListView) findViewById(R.id.list_fruits);
+        mListView = (ListView) findViewById(R.id.list_vocabs);
         mEmptyView = (TextView) findViewById(R.id.emptyView);
 
         mAdapter = new ArrayAdapter<String>(MainActivity.this,
                 android.R.layout.simple_list_item_1,
-                getResources().getStringArray(R.array.months_array));
+                getResources().getStringArray(R.array.vocab_array));
         mListView.setAdapter(mAdapter);
 
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity
         mListView.setEmptyView(mEmptyView);
 
         indexLayout = (LinearLayout) findViewById(R.id.side_index);
-        String[] fruits = getResources().getStringArray(R.array.months_array);
+        String[] fruits = getResources().getStringArray(R.array.vocab_array);
         Arrays.asList(fruits);
         getIndexList(fruits);
         displayIndex();

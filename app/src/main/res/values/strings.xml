@@ -10,10 +10,58 @@
     <string name="go_to">Go to Page 200</string>
     <string name="no_results">No Results</string>
 
-    <string-array name="months_array">
-        <item>Apples</item>
-        <item>Apricots</item>
-        <item>Avocado</item>
+    <string-array name="vocab_array">
+        <item>Absorption</item>
+        <item>Absorption Band</item>
+        <item>Absorptivity</item>
+        <item>Across-Track Scanner</item>
+        <item>Active Sensor </item>
+        <item>Adaptive Filter</item>
+        <item>Adaptive Histogram Equalization (AHE)</item>
+        <item>Additive Color</item>
+        <item>Aerial Photography</item>
+        <item>Aerosol</item>
+
+        <item>Cantalope</item>
+        <item>Date</item>
+        <item>Elderberry</item>
+        <item>Fig</item>
+        <item>Grapefruit</item>
+        <item>Grape</item>
+        <item>Gooseberry</item>
+        <item>Guava</item>
+        <item>Honeydew melon</item>
+        <item>Jackfruit</item>
+        <item>Juniper Berry</item>
+        <item>Kiwi</item>
+        <item>Kumquat</item>
+        <item>Lemons</item>
+        <item>Limes</item>
+        <item>Lychee</item>
+        <item>Mango</item>
+        <item>Mandarin</item>
+        <item>Nectaraine</item>
+        <item>Orange</item>
+        <item>Olive</item>
+        <item>Prunes</item>
+        <item>Pears</item>
+        <item>Plum</item>
+        <item>Pineapple</item>
+        <item>Peach</item>
+        <item>Papaya</item>
+        <item>Pomelo</item>
+        <item>Raspberries</item>
+        <item>Rambutan</item>
+        <item>Strawberries</item>
+        <item>Sweety</item>
+        <item>Salmonberry</item>
+        <item>Tangerines</item>
+        <item>Tomato</item>
+        <item>Ugli</item>
+        <item>Watermelon</item>
+        <item>Woodapple</item>
+
+
         <item>Annona</item>
         <item>Banana</item>
         <item>Blueberry</item>
