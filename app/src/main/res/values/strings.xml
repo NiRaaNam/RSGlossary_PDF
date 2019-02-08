@@ -21,40 +21,429 @@
         <item>Additive Color</item>
         <item>Aerial Photography</item>
         <item>Aerosol</item>
-
-        <item>Cantalope</item>
+        <item>Airborne Radar</item>
         <item>Date</item>
-        <item>Elderberry</item>
-        <item>Fig</item>
-        <item>Grapefruit</item>
-        <item>Grape</item>
-        <item>Gooseberry</item>
-        <item>Guava</item>
-        <item>Honeydew melon</item>
-        <item>Jackfruit</item>
-        <item>Juniper Berry</item>
-        <item>Kiwi</item>
-        <item>Kumquat</item>
-        <item>Lemons</item>
-        <item>Limes</item>
-        <item>Lychee</item>
-        <item>Mango</item>
-        <item>Mandarin</item>
-        <item>Nectaraine</item>
-        <item>Orange</item>
-        <item>Olive</item>
-        <item>Prunes</item>
-        <item>Pears</item>
-        <item>Plum</item>
-        <item>Pineapple</item>
-        <item>Peach</item>
-        <item>Papaya</item>
-        <item>Pomelo</item>
-        <item>Raspberries</item>
-        <item>Rambutan</item>
-        <item>Strawberries</item>
-        <item>Sweety</item>
-        <item>Salmonberry</item>
+        <item>Albedo</item>
+        <item>Along-Track Scanner (Pushbroom)</item>
+        <item>Alternating Polarization</item>
+        <item>Altimeter</item>
+        <item>Altimetry</item>
+        <item>Altitude</item>
+        <item>Ambient Temperature</item>
+        <item>Analog Data</item>
+        <item>Antenna</item>
+        <item>Antenna Array</item>
+        <item>Antenna Radiation Pattern</item>
+        <item>Apparent Temperature</item>
+        <item>Array Sensor</item>
+        <item>Artificial Neural Network</item>
+        <item>Aspect Angle</item>
+        <item>Atmospheric Absorption</item>
+        <item>Atmospheric Attenuation</item>
+        <item>Atmospheric Effect</item>
+        <item>Atmospheric Emission</item>
+        <item>Atmospheric Noise</item>
+        <item>Atmospheric Profile</item>
+        <item>Atmospheric Radiance</item>
+        <item>Atmospheric Reflection</item>
+        <item>Atmospheric Scattering</item>
+        <item>Atmospheric Transmission</item>
+        <item>Atmospheric Turbidity</item>
+        <item>Atmospheric Visibility</item>
+        <item>Atmospheric Window</item>
+        <item>Automatic Classification</item>
+        <item>Automatic Picture Transmission (APT)</item>
+        <item>Azimuth</item>
+        <item>Azimuth Direction</item>
+        <item>Azimuth Resolution</item>
+        <item>Backscatter</item>
+        <item>Balloon Sonde</item>
+        <item>Band / Spectral Band</item>
+        <item>Band Interleaved by Line (BIL)</item>
+        <item>Band Interleaved by Pixel (BIP)</item>
+        <item>Band Sequential (BSQ)</item>
+        <item>Bandwidth</item>
+        <item>Baseline</item>
+        <item>Basemap</item>
+        <item>Base Height Ratio</item>
+        <item>Beam</item>
+        <item>Beamwidth</item>
+        <item>Bearing</item>
+        <item>Benchmark</item>
+        <item>Bi-Directional Reflectance Distribution Function (BRDF)</item>
+        <item>Bilinear Interpolation</item>
+        <item>Binary Mask</item>
+        <item>Bit Error</item>
+        <item>Black Body</item>
+        <item>Block Adjustment</item>
+        <item>Brightness</item>
+        <item>Brightness Temperature</item>
+        <item>Brown Leaf Area Index (BLAI)</item>
+        <item>Buffer</item>
+        <item>Calibration</item>
+        <item>Cartographic Reference</item>
+        <item>Cartography</item>
+        <item>C-Band</item>
+        <item>Ceilometer</item>
+        <item>Change Detection</item>
+        <item>Circular Polarization</item>
+        <item>Classification Accuracy</item>
+        <item>Clustering</item>
+        <item>Clutter</item>
+        <item>Coastal Zone Color Scanner (CZCS)</item>
+        <item>Coherent Reflector</item>
+        <item>Color Composite Image</item>
+        <item>Color Infrared (CIR) Image</item>
+        <item>Computer Assisted Mapping (CAM)</item>
+        <item>Computer Compatible Tape (CCT)</item>
+        <item>Concave Slope</item>
+        <item>Confusion Matrix</item>
+        <item>Contextual Classification</item>
+        <item>Contour</item>
+        <item>Contrast Stretch</item>
+        <item>Convex Slope</item>
+        <item>Coordinate System</item>
+        <item>Cross Polarized Wave</item>
+        <item>Cross Polarization Nulls (Cross-pol nulls or X-pol nulls)</item>
+        <item>Cubic Convolution Interpolation</item>
+        <item>Data Coding</item>
+        <item>Data Compression</item>
+        <item>Data Fusion</item>
+        <item>Data Interpretation</item>
+        <item>Data Inversion</item>
+        <item>Data Normalization</item>
+        <item>Data Processing</item>
+        <item>Data Quality</item>
+        <item>Data Smoothing</item>
+        <item>Data Transformation</item>
+        <item>Data Transmission</item>
+        <item>Data Verification</item>
+        <item>Datum</item>
+        <item>Datum Transformation</item>
+        <item>Decibel (dB)</item>
+        <item>Decision Tree</item>
+        <item>Degree of Polarization</item>
+        <item>Density Slicing</item>
+        <item>Depression Angle</item>
+        <item>Destriping</item>
+        <item>Detector</item>
+        <item>Dielectric Constant</item>
+        <item>Difference Vegetation Index (DVI)</item>
+        <item>Differential GPS (DGPS) / Differential Global Positioning System</item>
+        <item>Diffraction</item>
+        <item>Diffuse Reflection</item>
+        <item>Digital Data</item>
+        <item>Digital Elevation Model (DEM)</item>
+        <item>Digital Filter</item>
+        <item>Digital Image</item>
+        <item>Digital Mapping</item>
+        <item>Digital Number (DN)</item>
+        <item>Digital Surface Model (DSM)</item>
+        <item>Digital Terrain Model (DTM)</item>
+        <item>Discrete Cosine Transform (DCT)</item>
+        <item>Discrete Fourier Transform (DFT)</item>
+        <item>Distribution of Radar Signal</item>
+        <item>Doppler Bandwidth</item>
+        <item>Doppler Domain</item>
+        <item>Doppler Radar</item>
+        <item>Doppler Shift (Effect)</item>
+        <item>Dynamic Range</item>
+        <item>Earth Observation Satellite</item>
+        <item>Edge Detection</item>
+        <item>Edge Enhancement</item>
+        <item>Edge Matching</item>
+        <item>Electromagnetic Energy / Electromagnetic Radiation / Electromagnetic Wave</item>
+        <item>Electromagnetic Spectrum (EMS)</item>
+        <item>Electronic Noise</item>
+        <item>Elevation Displacement</item>
+        <item>Elliptical Polarization</item>
+        <item>Emissivity</item>
+        <item>Emittance</item>
+        <item>Enhanced Thematic Mapper (ETM) / Enhanced Thematic Mapper Plus (ETM+)</item>
+        <item>Errors of Commission</item>
+        <item>Errors of Omission</item>
+        <item>Expert System</item>
+        <item>External Distortion</item>
+        <item>False Color Composite</item>
+        <item>Far Infrared (FIR)</item>
+        <item>Far Range</item>
+        <item>Fast Fourier Transform (FFT)</item>
+        <item>Feature Data</item>
+        <item>Feature Extraction</item>
+        <item>Feature Selection</item>
+        <item>Field of View (FOV)</item>
+        <item>Filter</item>
+        <item>Filtering (Image)</item>
+        <item>Flight Path</item>
+        <item>Fluorescence</item>
+        <item>Flux</item>
+        <item>Foreshortening</item>
+        <item>Forward Looking Infrared (FLIR)</item>
+        <item>Fourier Transform (FT)</item>
+        <item>Fractal Analysis</item>
+        <item>Fraction of Photosynthetically Active Radiation (FPAR)</item>
+        <item>Frequency</item>
+        <item>Frequency Assignment</item>
+        <item>Frequency Domain</item>
+        <item>Frequency Modulation (FM)</item>
+        <item>Furthest Neighbor Method</item>
+        <item>Fuzzy Logic</item>
+        <item>Gain (Antenna)</item>
+        <item>Gamma Ray</item>
+        <item>Gaussian Filtering</item>
+        <item>Generalization</item>
+        <item>Geocoding</item>
+        <item>Geodetic Coordinate</item>
+        <item>Geographic Information System (GIS)</item>
+        <item>Geoinformation Technology / Geoinformatics / Geomatics</item>
+        <item>Geometric Correction</item>
+        <item>Geometric Distortion</item>
+        <item>Geometric Registration</item>
+        <item>Geostationary Orbit</item>
+        <item>Geostationary Satellite</item>
+        <item>Global Navigation Satellite System (GNSS)</item>
+        <item>Grayscale</item>
+        <item>Grazing Angle</item>
+        <item>Greenness</item>
+        <item>Ground Control Point (GCP)</item>
+        <item>Ground Range</item>
+        <item>Ground Reflectance</item>
+        <item>Ground Station</item>
+        <item>Ground Truth</item>
+        <item>Haar Transform</item>
+        <item>Haze</item>
+        <item>Hertz (Hz)</item>
+        <item>Hierarchical Clustering</item>
+        <item>High Density Digital Tape (HDDT)</item>
+        <item>High Density Tape Recorder (HDTR)</item>
+        <item>High Frequency (HF)</item>
+        <item>High Pass Filter</item>
+        <item>Hilbert Transform</item>
+        <item>Histogram</item>
+        <item>Histogram Stretch</item>
+        <item>Histogram Equalization</item>
+        <item>Horizontal Polarization</item>
+        <item>Horizontal Transmit - Horizontal Receive Polarization (HH)</item>
+        <item>Horizontal Transmit - Vertical Receive Polarization (HV)</item>
+        <item>Hotspot</item>
+        <item>Hotine Oblique Mercator Projection (HOM)</item>
+        <item>Hough Transform</item>
+        <item>Hue, Intensity and Saturation (HIS)</item>
+        <item>Hyperspectral Imaging</item>
+        <item>Illumination</item>
+        <item>Illumination Angle</item>
+        <item>Image Analysis</item>
+        <item>Image Classification</item>
+        <item>Image Contrast</item>
+        <item>Image Correction</item>
+        <item>Image Correlation</item>
+        <item>Image Correlator</item>
+        <item>Image Degradation</item>
+        <item>Image Digitizer</item>
+        <item>Image Distortion</item>
+        <item>Image Encoding</item>
+        <item>Image Enhancement</item>
+        <item>Image Filtering</item>
+        <item>Image Geometry</item>
+        <item>Image Ground Segment (IGS)</item>
+        <item>Image Histogram</item>
+        <item>Image Interpretation</item>
+        <item>Image Map</item>
+        <item>Image Noise</item>
+        <item>Image Processing</item>
+        <item>Image Ratioing</item>
+        <item>Image Rectification</item>
+        <item>Image Resampling</item>
+        <item>Image Restoration</item>
+        <item>Image Scale</item>
+        <item>Image Subtraction</item>
+        <item>Image Texture</item>
+        <item>Image to Image Correction</item>
+        <item>Image to Map Correction</item>
+        <item>Image Transformation</item>
+        <item>Imaging</item>
+        <item>Imaging Radar</item>
+        <item>Imaging Spectrometry</item>
+        <item>Incidence Angle</item>
+        <item>Incident Energy</item>
+        <item>Incoherent</item>
+        <item>Indirect Interpretation</item>
+        <item>Infrared Band</item>
+        <item>Infrared Imaging</item>
+        <item>Infrared Image</item>
+        <item>Infrared Radiometer</item>
+        <item>Infrared Radiometry</item>
+        <item>Infrared Scanner</item>
+        <item>Infrared Scanning</item>
+        <item>Infrared Spectrometer</item>
+        <item>Infrared Spectrometry</item>
+        <item>Infrared Spectroscopy</item>
+        <item>Instantaneous Field of View (IFOV)</item>
+        <item>Intensity</item>
+        <item>Interferometer</item>
+        <item>Interferometry</item>
+        <item>Interferometric Synthetic Aperture Radar (InSAR)</item>
+        <item>Internal Distortion</item>
+        <item>International Standards Organization (ISO)</item>
+        <item>Interoperability</item>
+        <item>Interpolation / Spatial Interpolation</item>
+        <item>Interpretation</item>
+        <item>Interpretation Key</item>
+        <item>Intersection</item>
+        <item>Inverse Distance Weighting (IDW)</item>
+        <item>Inverse Synthetic Aperture Radar (ISAR)</item>
+        <item>Isodensity</item>
+        <item>Isopleth Map</item>
+        <item>Isotropic</item>
+        <item>Ka-Band</item>
+        <item>Kalman Filter</item>
+        <item>Kappa Coefficient</item>
+        <item>K-Band</item>
+        <item>Kernel</item>
+        <item>Kriging</item>
+        <item>Ku-Band</item>
+        <item>Labeling</item>
+        <item>LADAR (Laser Detection and Ranging)</item>
+        <item>Lambert Conformal Conic Projection (LCC)</item>
+        <item>Land Information System (LIS)</item>
+        <item>Large Scale Map</item>
+        <item>LASER (Light Amplification by Stimulated Emission of Radiation)</item>
+        <item>Latitudinal Effect</item>
+        <item>Layover</item>
+        <item>L-Band</item>
+        <item>L-Band Radiometer (LBR)</item>
+        <item>Leaf Area Index (LAI)</item>
+        <item>Lens Distortion</item>
+        <item>LiDAR (Light Detection and Ranging)</item>
+        <item>Line Scanner</item>
+        <item>Linear Contrast Stretch</item>
+        <item>Linear Enhancement</item>
+        <item>Linear Features</item>
+        <item>Linear Polarization</item>
+        <item>Local Incidence Angle</item>
+        <item>Logarithmic Stretch</item>
+        <item>Logical Database Design</item>
+        <item>Look Angle</item>
+        <item>Look Direction</item>
+        <item>Look-Up Table (LUT)</item>
+        <item>Low Frequency (LF)</item>
+        <item>Low Level Wind Shear (LLWS)</item>
+        <item>Low Pass Filter / Smoothing Filter</item>
+        <item>Luminance</item>
+        <item>Magnetic Azimuth</item>
+        <item>Magnetic North</item>
+        <item>Magnetic Survey</item>
+        <item>Magnitude</item>
+        <item>Map Projection</item>
+        <item>Map Resolution</item>
+        <item>Map Scale</item>
+        <item>Maximum Likelihood Classification</item>
+        <item>Median Filter</item>
+        <item>Medium Scale Map</item>
+        <item>Metadata</item>
+        <item>Microwave Band</item>
+        <item>Microwave Backscatter</item>
+        <item>Microwave Radiometer</item>
+        <item>Microwave Radiometry</item>
+        <item>Microwave Spectrometer</item>
+        <item>Microwave System</item>
+        <item>Mid Infrared (MIR)</item>
+        <item>Mie Scattering</item>
+        <item>Minimum Distance (to Means) Classifier</item>
+        <item>Mixed Pixel</item>
+        <item>Modulation</item>
+        <item>Modulation Transfer Function (MTF)</item>
+        <item>Mosaic</item>
+        <item>Multibeam Altimeter</item>
+        <item>Multibeam Scatterometer</item>
+        <item>Multichannel System</item>
+        <item>Multifrequency Laser</item>
+        <item>Multifrequency Radar</item>
+        <item>Multi-polarization Radar</item>
+        <item>Multiresolution Sensor</item>
+        <item>Multispectral Analysis</item>
+        <item>Multispectral Data / Image</item>
+        <item>Multispectral Radiometer</item>
+        <item>Multispectral Radiometry</item>
+        <item>Multispectral Scanner (MSS)</item>
+        <item>Multispectral Scanning</item>
+        <item>Multitemporal Analysis</item>
+        <item>Multitemporal Image</item>
+        <item>Nadir Ambiguity</item>
+        <item>Nadir Point</item>
+        <item>Natural Color Composite / True Color Composite</item>
+        <item>Navigation Satellite</item>
+        <item>Near Infrared (NIR)</item>
+        <item>Near Range</item>
+        <item>Near Range Edge</item>
+        <item>Nearest Neighbor Interpolation</item>
+        <item>Nearest Neighbor Method</item>
+        <item>Neatline</item>
+        <item>Neighborhood Function</item>
+        <item>Neighborhood Analysis</item>
+        <item>Noise Removal</item>
+        <item>Non-systematic Correction</item>
+        <item>Non-adaptive Filter</item>
+        <item>Non-hierarchical Clustering</item>
+        <item>Non-imaging Sensor</item>
+        <item>Non-linear Contrast Stretch</item>
+        <item>Non-selective Scattering</item>
+        <item>Normal Distribution</item>
+        <item>Normalized Difference Vegetation Index (NDVI)</item>
+        <item>Oblique Mercator Projection</item>
+        <item>Oblique Sensing</item>
+        <item>Onboard Processing</item>
+        <item>Optical Density</item>
+        <item>Optical Depth</item>
+        <item>Optical Digital System</item>
+        <item>Optical Distortion</item>
+        <item>Optical Filter</item>
+        <item>Optical Modulator</item>
+        <item>Optical Scatterometer</item>
+        <item>Optical Sensing</item>
+        <item>Optimum Polarization</item>
+        <item>Orthophoto / Orthoimage</item>
+        <item>Tomato</item>
+        <item>Ugli</item>
+        <item>Watermelon</item>
+        <item>Woodapple</item>
+        <item>Ugli</item>
+        <item>Watermelon</item>
+        <item>Woodapple</item>
+        <item>Tomato</item>
+        <item>Ugli</item>
+        <item>Watermelon</item>
+        <item>Woodapple</item>
+        <item>Tangerines</item>
+        <item>Tomato</item>
+        <item>Ugli</item>
+        <item>Watermelon</item>
+        <item>Woodapple</item>
+        <item>Tomato</item>
+        <item>Ugli</item>
+        <item>Watermelon</item>
+        <item>Woodapple</item>
+        <item>Tangerines</item>
+        <item>Tomato</item>
+        <item>Ugli</item>
+        <item>Watermelon</item>
+        <item>Woodapple</item>
+        <item>Ugli</item>
+        <item>Watermelon</item>
+        <item>Woodapple</item>
+        <item>Tomato</item>
+        <item>Ugli</item>
+        <item>Watermelon</item>
+        <item>Woodapple</item>
+        <item>Tangerines</item>
+        <item>Tomato</item>
+        <item>Ugli</item>
+        <item>Watermelon</item>
+        <item>Woodapple</item>
+        <item>Tomato</item>
+        <item>Ugli</item>
+        <item>Watermelon</item>
+        <item>Woodapple</item>
         <item>Tangerines</item>
         <item>Tomato</item>
         <item>Ugli</item>
@@ -62,50 +451,7 @@
         <item>Woodapple</item>
 
 
-        <item>Annona</item>
-        <item>Banana</item>
-        <item>Blueberry</item>
-        <item>Blackberry</item>
-        <item>Blackapple</item>
-        <item>Custard Apple</item>
-        <item>Clementine</item>
-        <item>Cantalope</item>
-        <item>Date</item>
-        <item>Elderberry</item>
-        <item>Fig</item>
-        <item>Grapefruit</item>
-        <item>Grape</item>
-        <item>Gooseberry</item>
-        <item>Guava</item>
-        <item>Honeydew melon</item>
-        <item>Jackfruit</item>
-        <item>Juniper Berry</item>
-        <item>Kiwi</item>
-        <item>Kumquat</item>
-        <item>Lemons</item>
-        <item>Limes</item>
-        <item>Lychee</item>
-        <item>Mango</item>
-        <item>Mandarin</item>
-        <item>Nectaraine</item>
-        <item>Orange</item>
-        <item>Olive</item>
-        <item>Prunes</item>
-        <item>Pears</item>
-        <item>Plum</item>
-        <item>Pineapple</item>
-        <item>Peach</item>
-        <item>Papaya</item>
-        <item>Pomelo</item>
-        <item>Raspberries</item>
-        <item>Rambutan</item>
-        <item>Strawberries</item>
-        <item>Sweety</item>
-        <item>Salmonberry</item>
-        <item>Tangerines</item>
-        <item>Tomato</item>
-        <item>Ugli</item>
-        <item>Watermelon</item>
-        <item>Woodapple</item>
+
+
     </string-array>
 </resources>
