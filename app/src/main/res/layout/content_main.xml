@@ -24,14 +24,58 @@
 
     </SearchView>-->
 
-    <ListView
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context=".MainActivity"
+        android:baselineAligned="false">
+
+        <ListView
+            android:id="@+id/list_fruits"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#EEEEEE"
+            android:layout_weight="1" >
+        </ListView>
+
+        <ScrollView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:background="#c3c3c3">
+            <LinearLayout
+                android:id="@+id/side_index"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:background="#c3c3c3"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </ScrollView>
+
+        <!--<LinearLayout
+            android:id="@+id/side_index"
+            android:layout_width="25dp"
+            android:layout_height="fill_parent"
+            android:background="#c3c3c3"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+        </LinearLayout>
+-->
+
+
+
+
+    </LinearLayout>
+
+   <!-- <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#EEEEEE"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints" />-->
 
     <TextView
         android:id="@+id/emptyView"

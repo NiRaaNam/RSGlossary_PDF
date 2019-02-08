@@ -19,9 +19,11 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.view.View.OnClickListener;
 
 import com.github.barteksc.pdfviewer.PDFView;
 import com.github.barteksc.pdfviewer.listener.OnLoadCompleteListener;
@@ -30,11 +32,16 @@ import com.github.barteksc.pdfviewer.listener.OnRenderListener;
 import com.github.barteksc.pdfviewer.scroll.DefaultScrollHandle;
 import com.shockwave.pdfium.PdfDocument;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, OnPageChangeListener,OnLoadCompleteListener{
+        implements NavigationView.OnNavigationItemSelectedListener, OnPageChangeListener,OnLoadCompleteListener,
+        OnClickListener {
 
     public static final String SAMPLE_FILE = "RSG_Book_Final.pdf"; //your file path
     PDFView pdfView;
@@ -51,6 +58,10 @@ public class MainActivity extends AppCompatActivity
     private long lastPressedTime;
     private static final int PERIOD = 2000;
 
+    Map<String, Integer> mapIndex;
+
+    LinearLayout indexLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,6 +71,7 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(mToolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -88,7 +100,7 @@ public class MainActivity extends AppCompatActivity
         displayFromAsset(SAMPLE_FILE);
 
         //List of item Vocab
-        mListView = (ListView) findViewById(R.id.list);
+        mListView = (ListView) findViewById(R.id.list_fruits);
         mEmptyView = (TextView) findViewById(R.id.emptyView);
 
         mAdapter = new ArrayAdapter<String>(MainActivity.this,
@@ -119,6 +131,12 @@ public class MainActivity extends AppCompatActivity
         });
 
         mListView.setEmptyView(mEmptyView);
+
+        indexLayout = (LinearLayout) findViewById(R.id.side_index);
+        String[] fruits = getResources().getStringArray(R.array.months_array);
+        Arrays.asList(fruits);
+        getIndexList(fruits);
+        displayIndex();
 
 
         //About PDF Config
@@ -272,6 +290,39 @@ public class MainActivity extends AppCompatActivity
             }
         }
         return false;
+    }
+
+    //Index Right Side Code
+    private void getIndexList(String[] fruits) {
+        mapIndex = new LinkedHashMap<String, Integer>();
+        for (int i = 0; i < fruits.length; i++) {
+            String fruit = fruits[i];
+            String index = fruit.substring(0, 1);
+
+            if (mapIndex.get(index) == null)
+                mapIndex.put(index, i);
+        }
+    }
+
+    private void displayIndex() {
+        //LinearLayout indexLayout = (LinearLayout) findViewById(R.id.side_index);
+
+        TextView textView;
+        List<String> indexList = new ArrayList<String>(mapIndex.keySet());
+        for (String index : indexList) {
+            textView = (TextView) getLayoutInflater().inflate(
+                    R.layout.side_index_item, null);
+            textView.setText(index);
+            textView.setOnClickListener(this);
+            indexLayout.addView(textView);
+        }
+    }
+
+    public void onClick(View view) {
+        TextView selectedIndex = (TextView) view;
+        mListView.setSelection(mapIndex.get(selectedIndex.getText()));
+
+        Toast.makeText(getApplicationContext(), mapIndex.get(selectedIndex.getText()).toString(), Toast.LENGTH_SHORT).show();
     }
 
 
