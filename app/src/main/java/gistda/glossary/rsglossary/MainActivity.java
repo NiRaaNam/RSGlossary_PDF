@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.SearchView;
+import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -322,7 +323,66 @@ public class MainActivity extends AppCompatActivity
         TextView selectedIndex = (TextView) view;
         mListView.setSelection(mapIndex.get(selectedIndex.getText()));
 
-        Toast.makeText(getApplicationContext(), mapIndex.get(selectedIndex.getText()).toString(), Toast.LENGTH_SHORT).show();
+        //Config Index Click on each Alphabet Index
+
+        //Toast.makeText(getApplicationContext(), mapIndex.get(selectedIndex.getText()).toString(), Toast.LENGTH_SHORT).show();
+        String selectAlphabet = mapIndex.get(selectedIndex.getText()).toString();
+        String showAlphabet = "";
+        if(selectAlphabet.equals("0")){
+            showAlphabet = "A"; pdfView.jumpTo(7);
+        }else if(selectAlphabet.equals("44")){
+            showAlphabet = "B"; pdfView.jumpTo(16);
+        }else if(selectAlphabet.equals("68")){
+            showAlphabet = "C"; pdfView.jumpTo(21);
+        }else if(selectAlphabet.equals("94")){
+            showAlphabet = "D"; pdfView.jumpTo(26);
+        }else if(selectAlphabet.equals("136")){
+            showAlphabet = "E"; pdfView.jumpTo(33);
+        }else if(selectAlphabet.equals("152")){
+            showAlphabet = "F"; pdfView.jumpTo(37);
+        }else if(selectAlphabet.equals("176")){
+            showAlphabet = "G"; pdfView.jumpTo(42);
+        }else if(selectAlphabet.equals("198")){
+            showAlphabet = "H"; pdfView.jumpTo(48);
+        }else if(selectAlphabet.equals("218")){
+            showAlphabet = "I"; pdfView.jumpTo(53);
+        }else if(selectAlphabet.equals("283")){
+            showAlphabet = "K"; pdfView.jumpTo(66);
+        }else if(selectAlphabet.equals("290")){
+            showAlphabet = "L"; pdfView.jumpTo(68);
+        }else if(selectAlphabet.equals("318")){
+            showAlphabet = "M"; pdfView.jumpTo(73);
+        }else if(selectAlphabet.equals("357")){
+            showAlphabet = "N"; pdfView.jumpTo(80);
+        }else if(selectAlphabet.equals("378")){
+            showAlphabet = "O"; pdfView.jumpTo(79+6);
+        }else if(selectAlphabet.equals("394")){
+            showAlphabet = "P"; pdfView.jumpTo(81+6);
+        }else if(selectAlphabet.equals("441")){
+            showAlphabet = "Q"; pdfView.jumpTo(90+6);
+        }else if(selectAlphabet.equals("442")){
+            showAlphabet = "R"; pdfView.jumpTo(91+6);
+        }else if(selectAlphabet.equals("507")){
+            showAlphabet = "S"; pdfView.jumpTo(101+6);
+        }else if(selectAlphabet.equals("605")){
+            showAlphabet = "T"; pdfView.jumpTo(120+6);
+        }else if(selectAlphabet.equals("633")){
+            showAlphabet = "U"; pdfView.jumpTo(125+6);
+        }else if(selectAlphabet.equals("643")){
+            showAlphabet = "V"; pdfView.jumpTo(127+6);
+        }else if(selectAlphabet.equals("659")){
+            showAlphabet = "W"; pdfView.jumpTo(130+6);
+        }else if(selectAlphabet.equals("665")){
+            showAlphabet = "X"; pdfView.jumpTo(132+6);
+        }else if(selectAlphabet.equals("668")){
+            showAlphabet = "Y"; pdfView.jumpTo(132+6);
+        }else if(selectAlphabet.equals("669")){
+            showAlphabet = "Z"; pdfView.jumpTo(132+6);
+        }
+
+        Toast toast = Toast.makeText(getApplicationContext(), showAlphabet, Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.CENTER, 0,0);
+        toast.show();
     }
 
 
