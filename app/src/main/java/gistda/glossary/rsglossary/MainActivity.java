@@ -115,13 +115,30 @@ public class MainActivity extends AppCompatActivity
                 Toast.makeText(MainActivity.this, adapterView.getItemAtPosition(i).toString(), Toast.LENGTH_SHORT).show();
                 //Condition Selected Vocabulary
                 //displayFromAsset(SAMPLE_FILE);
-                String PageSelect = adapterView.getItemAtPosition(i).toString();
-                if (PageSelect.equals("Absorption")){
-                    //int thePage = Integer.parseInt(PageSelect);
-                    pdfView.jumpTo(0);
+                String WordSelect = adapterView.getItemAtPosition(i).toString();
+                if (WordSelect.equals("Absorption")||WordSelect.equals("Absorption Band")||
+                        WordSelect.equals("Absorptivity")||WordSelect.equals("Across-Track Scanner")||
+                        WordSelect.equals("Active Sensor")){
+
+                    pdfView.jumpTo(1+6);
+                }else if (WordSelect.equals("Adaptive Filter")||WordSelect.equals("Adaptive Histogram Equalization (AHE)")||
+                        WordSelect.equals("Additive Color")){
+
+                    pdfView.jumpTo(2+6);
+                }else if (WordSelect.equals("Aerial Photography")||WordSelect.equals("Aerosol")||
+                        WordSelect.equals("Airborne Radar")||WordSelect.equals("Albedo")||
+                        WordSelect.equals("Along-Track Scanner (Pushbroom)")){
+
+                    pdfView.jumpTo(3+6);
+                }else if (WordSelect.equals("Alternating Polarization")||WordSelect.equals("Altimeter")||
+                        WordSelect.equals("Altimetry")||WordSelect.equals("Altitude")){
+
+                    pdfView.jumpTo(4+6);
                 }else{
-                    pdfView.jumpTo(1);
+                    //pdfView.jumpTo(1);
                 }
+
+                //WordSelect.equals("")
 
 
 
