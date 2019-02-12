@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Toast.makeText(MainActivity.this, adapterView.getItemAtPosition(i).toString(), Toast.LENGTH_SHORT).show();
                 //Condition Selected Vocabulary
-                //displayFromAsset(SAMPLE_FILE);
+                //displayFromAsset(SAMPLE_FILE); //displayFromAsset(SAMPLE_FILE);
                 String WordSelect = adapterView.getItemAtPosition(i).toString();
                 if (WordSelect.equals("Absorption")||WordSelect.equals("Absorption Band")||
                         WordSelect.equals("Absorptivity")||WordSelect.equals("Across-Track Scanner")||
