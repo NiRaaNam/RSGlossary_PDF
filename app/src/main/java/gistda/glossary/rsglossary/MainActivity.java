@@ -1,6 +1,8 @@
 package gistda.glossary.rsglossary;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -1120,9 +1122,9 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_manage) {
 
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_aboutorg) {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.gistda.or.th/main/th/node/66")));
+        } else if (id == R.id.nav_aboutapp) {
 
         }
 
