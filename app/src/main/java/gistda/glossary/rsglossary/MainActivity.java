@@ -1124,8 +1124,10 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_aboutorg) {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.gistda.or.th/main/th/node/66")));
-        } else if (id == R.id.nav_aboutapp) {
 
+        } else if (id == R.id.nav_aboutapp) {
+            Intent iinent= new Intent(MainActivity.this,AboutApp.class);
+            startActivity(iinent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
