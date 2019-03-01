@@ -1114,7 +1114,7 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        /*if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
 
@@ -1122,7 +1122,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_manage) {
 
-        } else if (id == R.id.nav_aboutorg) {
+        } else */if (id == R.id.nav_aboutorg) {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.gistda.or.th/main/th/node/66")));
 
         } else if (id == R.id.nav_aboutapp) {
